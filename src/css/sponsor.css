@@ -1,0 +1,41 @@
+.sponsor {
+    background-color: #3A6ABD;
+    border: 1px solid #3A6ABD;
+    max-width: 300px;
+    color: white;
+}
+
+.sponsor-header h1 {
+    text-align: center;
+    text-transform: UPPERCASE;
+    font-size: 1rem;
+    padding-left:0;
+    padding-right:0;
+    margin: 0.5rem 0;
+    border: 0;
+    background-color: #3A6ABD;
+    color: white;
+}
+
+.sponsor-content {
+    background-color: white;
+}
+
+.sponsor-content img {
+    min-width: 50%;
+    max-width: 298px; /*300px -2px because of IE*/
+    margin:auto;
+    display:block;
+}
+
+.sponsor-footer h6 {
+    text-align: center;
+    text-transform: UPPERCASE;
+    font-size: 0.5rem;
+    padding-left:0;
+    padding-right:0;
+    border: 0;
+    margin: 0.5rem 0;
+    background-color: #3A6ABD;
+    color: white;
+}
