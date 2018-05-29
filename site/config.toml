@@ -1,3 +1,19 @@
 baseurl = "/"
-languageCode = "en-us"
-title = "Homepage"
+languageCode = "be-nl"
+title = "TTC Sukarti"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "Home"
+    url = "/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "stage"
+    name = "Stage"
+    title = "stage"
+    url = "/stage/"
+    weight = 0

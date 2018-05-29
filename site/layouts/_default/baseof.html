@@ -4,7 +4,7 @@
   <body>
     {{ partial "header" . }}
     {{ partial "nav" . }}
-    {{ block "main" . }}{{ end }} 
+    {{ partial "page" (dict "heading" .Params.title "content" .Content) }}
     {{ partial "footer" . }} 
   </body>
 </html>
