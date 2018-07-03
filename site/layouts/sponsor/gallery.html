@@ -5,7 +5,7 @@
     {{ partial "header" . }}
     {{ partial "nav" . }}
     <div class="wrapper">
-      {{ partial "page" (dict "heading" .Params.title "content" .Content) }}
+      {{ partial "sponsors" (dict "heading" .Params.title "sponsors" .Site.Data.sponsors) }}
       {{ partial "sponsors-side" (dict "sponsors" .Site.Data.sponsors) }}
     </div>
     {{ partial "footer" . }}

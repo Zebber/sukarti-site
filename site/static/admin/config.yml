@@ -7,20 +7,21 @@ public_folder: "img"
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "site/content/post" # The path to the folder where the documents are stored
+    folder: "site/content/pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Intro Blurb", name: "description", widget: "text"}
-      - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: "sponsors"
     label: "Sponsor"
-    folder: "site/content/sponsor"
+    folder: "data/sponsors/"
+    extension: json
     create: true
     fields:
       - {label: "Sponsor", name: "sponsor", widget: "string"}
+      - {label: "Logo", name: "logo", widget: "image"}
+      - {label: "Weight", name: "weight", widget: "number", default: 50}
+      - {label: "Ondertitel", name: "subtitle", widget: "string", required: false}
   - name: "pages"
     label: "Pages"
     create: true

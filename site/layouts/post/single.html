@@ -1,15 +1,26 @@
 {{ define "main" }}
 
-  <div class="mw6 center ph3 pv4">
-    <h1 class="f2 lh-title b mb3">{{.Title}}</h1>
-    <div class="flex justify-between grey-3">
-      <p>{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-      <p>Read in {{ .ReadingTime }} minutes</p>
-    </div>
-    <div class="cms mw6">
-      <p>{{ .Description }}</p>
-      {{ if .Params.image }}<img src="{{ .Params.image }}" alt="{{ .Title }}" />{{ end }}
-      {{ .Content }}
-    </div>
-  </div>
+{{ partial "page" (dict "heading" .Params.title "content" .Content) }}
+
+<section>
+    <p>Hello</p>
+    <ul>
+        {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+        <li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+            <ul>
+                {{ range $key, $value := $taxonomy }}
+                <li> {{ $key }} </li>
+                <ul>
+                    {{ range $value.Pages }}
+                    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </ul>
+        </li>
+        {{ end }}
+    </ul>
+</section>
+{{ partial "sponsors-side" (dict "sponsors" .Site.Data.sponsors) }}
+
 {{ end }}

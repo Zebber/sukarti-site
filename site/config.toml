@@ -13,7 +13,35 @@ title = "TTC Sukarti"
 
   [[menu.main]]
     identifier = "stage"
-    name = "Stage"
+    name = "Stages"
     title = "stage"
-    url = "/stage/"
-    weight = 0
+    url = "/pages/stage/"
+    weight = -100
+
+  [[menu.main]]
+    identifier = "trainingsuren"
+    name = "Trainingsuren"
+    title = "trainingsuren"
+    url = "/pages/uren/"
+    weight = -90
+
+  [[menu.main]]
+    identifier = "about"
+    name = "Over onze club"
+    title = "about"
+    url = "/pages/about/"
+    weight = -80
+
+  [[menu.main]]
+    identifier = "lidgeld"
+    name = "Lidgeld"
+    title = "lidgeld"
+    url = "/pages/lidgeld/"
+    weight = -70
+
+[[menu.main]]
+    identifier = "sponsors"
+    name = "Sponsors"
+    title = "sponsors"
+    url = "/sponsors/"
+    weight = -70
