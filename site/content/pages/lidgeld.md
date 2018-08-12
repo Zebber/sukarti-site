@@ -2,4 +2,12 @@
 title: "Lidgeld"
 ---
 
-Hier komt info over het lidgeld.
+Voor het seizoen 2018-19 zijn de lidgelden als volgt:
+
+|Statuut|Lidgeld|
+|-------|-------|
+|Competitiespeler +16|125 EUR|
+|Recreant +16|105 EUR|
+|Jeugdlid -16|115 EUR|
+
+Het lidgeld kan betaald worden op clubrekening: **BE63 7340 2540 4208**

@@ -79,7 +79,9 @@ nav ul li a {
 }
 
 table {
-    width:100%;
+    min-width:50%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 th {
