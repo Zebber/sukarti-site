@@ -78,6 +78,14 @@ nav ul li a {
     text-decoration: none;
 }
 
+table {
+    width:100%;
+}
+
+th {
+    background-color: #428bca;
+    color: white;
+}
 a {
     color: #C59542;
 }
