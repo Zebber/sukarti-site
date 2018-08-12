@@ -17,8 +17,9 @@ collections: # A list of collections the CMS should be able to edit
     folder: "data/sponsors/"
     extension: json
     create: true
+    slug: {{slug}}
     fields:
-      - {label: "Sponsor", name: "sponsor", widget: "string"}
+      - {label: "Sponsor", name: "title", widget: "string"}
       - {label: "Logo", name: "logo", widget: "image"}
       - {label: "Weight", name: "weight", widget: "number", default: 50}
       - {label: "Ondertitel", name: "subtitle", widget: "string", required: false}
