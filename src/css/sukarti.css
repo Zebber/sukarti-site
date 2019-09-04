@@ -141,6 +141,13 @@ a.active {
     align-items: baseline;
 }
 
+.emphasis {
+    text-transform: uppercase;
+    padding:0 2px;
+    border:1px solid #C59542;
+    color: #C59542;
+}
+
 @media (max-width: 1200px) {
 
     .wrapper {

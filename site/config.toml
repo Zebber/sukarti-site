@@ -26,13 +26,6 @@ title = "TTC Sukarti"
     weight = -90
 
   [[menu.main]]
-    identifier = "about"
-    name = "Over onze club"
-    title = "about"
-    url = "/pages/about/"
-    weight = -80
-
-  [[menu.main]]
     identifier = "lidgeld"
     name = "Lidgeld"
     title = "lidgeld"
