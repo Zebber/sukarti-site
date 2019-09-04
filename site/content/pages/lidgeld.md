@@ -2,7 +2,7 @@
 title: "Lidgeld"
 ---
 
-Voor het seizoen 2018-19 zijn de lidgelden als volgt:
+Voor het seizoen 2012-20 zijn de lidgelden als volgt:
 
 |Statuut|Lidgeld|
 |-------|-------|
