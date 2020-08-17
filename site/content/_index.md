@@ -8,4 +8,4 @@ title: "Welkom!"
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ChFv7NnGpQA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<p>Heeft dit filmpje je overtuigd om de uitdaging aan te gaan? Mail naar <a href="mailto:bestuur@ttcsukarti.be">info@ttcsukarti.be</a>
+<p>Heeft dit filmpje je overtuigd om de uitdaging aan te gaan? Mail naar <a href="mailto:info@ttcsukarti.be">info@ttcsukarti.be</a>

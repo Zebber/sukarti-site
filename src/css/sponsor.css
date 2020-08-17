@@ -28,14 +28,15 @@
     display:block;
 }
 
-.sponsor-footer h6 {
+.sponsor-footer a {
     text-align: center;
     text-transform: UPPERCASE;
-    font-size: 0.5rem;
+    font-size: 1rem;
     padding-left:0;
     padding-right:0;
     border: 0;
     margin: 0.5rem 0;
     background-color: #3A6ABD;
     color: white;
+    display: block;
 }
