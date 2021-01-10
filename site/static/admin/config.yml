@@ -27,7 +27,7 @@ collections: # A list of collections the CMS should be able to edit
     label: "Pages"
     create: true
     files:
-      - file: "site/content/_index.md"
+      - file: "site/content/index.md"
         label: "Home Page"
         name: "home"
         fields:
