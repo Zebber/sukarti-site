@@ -32,7 +32,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="upgrade template base" />
+    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="upgrade template base">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +62,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/data/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -67,6 +72,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti-site\site\data\css" />
       <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti-site" />
       <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti-site\site\data\sponsors" />
     </key>
@@ -84,7 +90,7 @@
       <workItem from="1598119988148" duration="629000" />
       <workItem from="1602065734318" duration="1618000" />
       <workItem from="1603031007460" duration="30000" />
-      <workItem from="1610289693909" duration="2195000" />
+      <workItem from="1610289693909" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="Update 20-2021">
       <created>1597692758839</created>
@@ -121,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610291702952</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="upgrade template base">
+      <created>1610292005787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610292005787</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upgrade template base">
+      <created>1610292112038</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610292112038</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

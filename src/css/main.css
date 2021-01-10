@@ -1,87 +1,291 @@
-/*! TACHYONS v4.5.5 | http://tachyons.io */
+body {
+    font-family: 'Amiri', serif;
+    background-color: #f8f8f8;
+    margin: 0;
+}
 
-/*
- *
- *      ________            ______
- *      ___  __/_____ _________  /______  ______________________
- *      __  /  _  __ `/  ___/_  __ \_  / / /  __ \_  __ \_  ___/
- *      _  /   / /_/ // /__ _  / / /  /_/ // /_/ /  / / /(__  )
- *      /_/    \__,_/ \___/ /_/ /_/_\__, / \____//_/ /_//____/
- *                                 /____/
- *
- *    TABLE OF CONTENTS
- *
- *    1. External Library Includes
- *       - Reset.css | http://meyerweb.com/eric/tools/css/reset/
- *    2. Tachyons Modules
- *    3. Variables
- *       - Media Queries
- *       - Colors
- *    4. Debugging
- *       - Debug all
- *       - Debug children
- *
- */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    /*border: 1px solid #D5A967;*/
+    border-left: 0;
+    background-color: #3a6abd;
+    color: #d9edf7;
+    /*color: #2a5698;*/
+}
 
+img {
+    border: 0;
 
-/* External Library Includes */
-@import './imports/_reset';
+}
 
-/* Modules */
-@import './imports/_box-sizing';
-@import './imports/_images';
-@import './imports/_background-size';
-@import './imports/_background-position';
-@import './imports/_outlines';
-@import './imports/_borders';
-@import './imports/_border-radius';
-@import './imports/_border-style';
-@import './imports/_border-widths';
-@import './imports/_border-colors';
-@import './imports/_code';
-@import './imports/_coordinates';
-@import './imports/_clears';
-@import './imports/_display';
-@import './imports/_flexbox';
-@import './imports/_floats';
-@import './imports/_font-style';
-@import './imports/_font-weight';
-@import './imports/_forms';
-@import './imports/_heights';
-@import './imports/_line-height';
-@import './imports/_links';
-@import './imports/_lists';
-@import './imports/_max-widths';
-@import './imports/_widths';
-@import './imports/_overflow';
-@import './imports/_position';
-@import './imports/_opacity';
-@import './imports/_spacing';
-@import './imports/_text-decoration';
-@import './imports/_text-align';
-@import './imports/_text-transform';
-@import './imports/_type-scale';
-@import './imports/_typography';
-@import './imports/_utilities';
-@import './imports/_visibility';
-@import './imports/_white-space';
-@import './imports/_vertical-align';
-@import './imports/_states';
-@import './imports/_z-index';
-@import './imports/_styles';
-@import './imports/_buttons';
-@import './imports/_svg';
-@import './imports/_cms';
+.header {
+    /*background-color: #d9edf7;*/
+    background-color: #3a6abd;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    height: 64px;
+    /*padding-top:1rem;*/
+}
 
-/* Variables */
-/* Importing here will allow you to override any variables in the modules */
-@import './imports/_colors';
-@import './imports/_media-queries';
-@import './imports/_variables';
+.header > h1 {
+    display: inline;
+    margin: inherit;
+    padding: inherit;
+    border: inherit;
+    /*background-color: #f8f8f8;*/
+    /*color: #3a6abd;*/
+    vertical-align: top;
+    font-size: 54px;
+}
 
-/* Debugging */
-@import './imports/_debug-children';
-@import './imports/_debug-grid';
+.header > img {
+    height: 64px;
+    background-color: #f8f8f8;
+}
 
-/* Uncomment out the line below to help debug layout issues */
-/*@import './imports/_debug';*/
+nav {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-bottom: 1px solid #C59542;
+}
+
+.footer {
+    border-top: 1px solid #C59542;
+    margin: 0;
+}
+
+.footer h6 {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0;
+}
+
+nav ul li a {
+    padding: 10px 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #428bca;
+    text-decoration: none;
+}
+
+table {
+    min-width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th {
+    background-color: #428bca;
+    color: white;
+}
+a {
+    color: #C59542;
+}
+
+a.active {
+    color: #C59542;
+    border-bottom: 1px solid #C59542;
+}
+
+.wrapper {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    display: flex;
+}
+
+.content {
+    flex: 1 0 70%;
+    margin-right: 1rem;
+    border-right: 1px dotted #C59542;
+}
+
+.content > .content-title {
+    margin: 0 1rem 0 -1rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+}
+
+.content > .content-body {
+    margin-right: 1rem;
+    margin-left: -1rem;
+    padding-left: 1rem;
+}
+
+.content-body > h6, .content-body > h2, .content-body > h3, .content-body > h4, .content-body > h5 {
+    margin: 0.75rem 0 0 -1rem;
+    padding: 0.5rem 0 0.5rem 1rem;
+}
+
+.sponsors {
+    flex: 0 1 300px;
+}
+
+.sponsors > .sponsor + .sponsor {
+    margin-top: 1rem;
+}
+
+.sponsors-gallery {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.emphasis {
+    text-transform: uppercase;
+    padding:0 2px;
+    border:1px solid #C59542;
+    color: #C59542;
+}
+
+@media (max-width: 1200px) {
+
+    .wrapper {
+        display: block;
+        margin: 0;
+        padding: 1rem 0 0;
+    }
+
+    .content {
+        margin-right: 0;
+        border-right: 0;
+    }
+
+    .sponsors {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        margin-top: 1rem;
+        border-top: 1px dotted #C59542;
+        padding-top: 1rem;
+    }
+
+    .sponsor {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header, .header > img {
+        height: 42px;
+    }
+
+    .header > h1 {
+        font-size: 32px;
+    }
+
+    .content > .content-title {
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+
+    .content > .content-body {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .content-body > h6, .content-body > h2, .content-body > h3, .content-body > h4, .content-body > h5 {
+        margin-left: -1rem;
+        margin-right: -1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 950px) {
+
+    nav {
+        padding-top: 0;
+        border-bottom: 0;
+    }
+
+    nav ul li {
+        display: list-item;
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+
+    nav ul li + nav ul li {
+        margin-top: 0.5rem;
+    }
+
+    nav ul li a {
+        /*padding-bottom: 5px;*/
+        display: block;
+        text-align: center;
+    }
+
+    .wrapper {
+        padding-top: 0;
+    }
+
+    a.active {
+        color: #C59542;
+        border-bottom: 1px solid #C59542;
+        border-top: 1px solid #C59542;
+    }
+
+    .header > img {
+        display: none;
+    }
+
+    .header, .header > img {
+        height: inherit;
+    }
+
+    .header > h1 {
+        /*font-size: 32px;*/
+    }
+}
+
+.sponsor {
+    background-color: #3A6ABD;
+    border: 1px solid #3A6ABD;
+    max-width: 300px;
+    color: white;
+}
+
+.sponsor-header h1 {
+    text-align: center;
+    text-transform: UPPERCASE;
+    font-size: 1rem;
+    padding-left:0;
+    padding-right:0;
+    margin: 0.5rem 0;
+    border: 0;
+    background-color: #3A6ABD;
+    color: white;
+}
+
+.sponsor-content {
+    background-color: white;
+}
+
+.sponsor-content img {
+    min-width: 50%;
+    max-width: 298px; /*300px -2px because of IE*/
+    margin:auto;
+    display:block;
+}
+
+.sponsor-footer a {
+    text-align: center;
+    text-transform: UPPERCASE;
+    font-size: 1rem;
+    padding-left:0;
+    padding-right:0;
+    border: 0;
+    margin: 0.5rem 0;
+    background-color: #3A6ABD;
+    color: white;
+    display: block;
+}
