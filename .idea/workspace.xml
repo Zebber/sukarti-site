@@ -32,9 +32,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="Fix css issues">
+    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="Add new sponsor">
+      <change afterPath="$PROJECT_DIR$/site/data/sponsors/wolsalon.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.prod.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,18 +58,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/data/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/data/sponsors" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti\sukarti-site\site\data\sponsors" />
       <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti-site\site\data\css" />
       <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti-site" />
       <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti-site\site\data\sponsors" />
@@ -89,6 +93,8 @@
       <workItem from="1602065734318" duration="1618000" />
       <workItem from="1603031007460" duration="30000" />
       <workItem from="1610289693909" duration="4231000" />
+      <workItem from="1631030218034" duration="2575000" />
+      <workItem from="1633368442891" duration="181000" />
     </task>
     <task id="LOCAL-00001" summary="Update 20-2021">
       <created>1597692758839</created>
@@ -146,7 +152,21 @@
       <option name="project" value="LOCAL" />
       <updated>1610293439798</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add new sponsor">
+      <created>1631030849349</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631030849349</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Add new sponsor">
+      <created>1631195503521</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631195503521</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +191,11 @@
     <MESSAGE value="Add follow us text" />
     <MESSAGE value="upgrade template base" />
     <MESSAGE value="Fix css issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix css issues" />
+    <MESSAGE value="Add new sponsor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new sponsor" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
