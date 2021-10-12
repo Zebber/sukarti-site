@@ -33,8 +33,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="Add new sponsor">
-      <change afterPath="$PROJECT_DIR$/site/data/sponsors/wolsalon.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/content/pages/uren.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/uren.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,8 @@
       <workItem from="1603031007460" duration="30000" />
       <workItem from="1610289693909" duration="4231000" />
       <workItem from="1631030218034" duration="2575000" />
-      <workItem from="1633368442891" duration="181000" />
+      <workItem from="1633368442891" duration="1080000" />
+      <workItem from="1634051727353" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="Update 20-2021">
       <created>1597692758839</created>
@@ -166,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631195503521</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add new sponsor">
+      <created>1633368926786</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1633368926786</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
