@@ -2,7 +2,7 @@
 title: "Lidgeld"
 ---
 
-Voor het seizoen 2020-21 zijn de lidgelden als volgt:
+Voor het seizoen 2021-22 zijn de lidgelden als volgt:
 
 |Statuut|Lidgeld|
 |-------|-------|
