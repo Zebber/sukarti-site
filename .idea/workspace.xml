@@ -32,8 +32,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="adjust training hours">
+    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="adjust season in member fees page">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/content/pages/lidgeld.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/lidgeld.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/content/pages/uren.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/uren.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,25 +53,22 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1gEiQGvPAjlNYAgIdU7AQLzVYCy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/site/data/sponsors" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="node" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti\sukarti-site\site\data\sponsors" />
@@ -94,7 +93,9 @@
       <workItem from="1610289693909" duration="4231000" />
       <workItem from="1631030218034" duration="2575000" />
       <workItem from="1633368442891" duration="1080000" />
-      <workItem from="1634051727353" duration="546000" />
+      <workItem from="1634051727353" duration="731000" />
+      <workItem from="1637418419707" duration="140000" />
+      <workItem from="1659368613541" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="Update 20-2021">
       <created>1597692758839</created>
@@ -180,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634051989049</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="adjust season in member fees page">
+      <created>1634052287626</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1634052287626</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +204,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update 20-2021" />
@@ -207,7 +214,8 @@
     <MESSAGE value="Fix css issues" />
     <MESSAGE value="Add new sponsor" />
     <MESSAGE value="adjust training hours" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust training hours" />
+    <MESSAGE value="adjust season in member fees page" />
+    <option name="LAST_COMMIT_MESSAGE" value="adjust season in member fees page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
