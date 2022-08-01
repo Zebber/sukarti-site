@@ -32,10 +32,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="adjust season in member fees page">
+    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="update for new season">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/content/pages/lidgeld.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/lidgeld.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/pages/uren.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/uren.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,14 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/site/data/sponsors/nazar.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/site/data/sponsors/wolsalon.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/cms.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/main.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/sponsor.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/css/sukarti.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,7 +102,7 @@
       <workItem from="1633368442891" duration="1080000" />
       <workItem from="1634051727353" duration="731000" />
       <workItem from="1637418419707" duration="140000" />
-      <workItem from="1659368613541" duration="297000" />
+      <workItem from="1659368613541" duration="3001000" />
     </task>
     <task id="LOCAL-00001" summary="Update 20-2021">
       <created>1597692758839</created>
@@ -188,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634052287626</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update for new season">
+      <created>1659368927156</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1659368927156</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +229,8 @@
     <MESSAGE value="Add new sponsor" />
     <MESSAGE value="adjust training hours" />
     <MESSAGE value="adjust season in member fees page" />
-    <option name="LAST_COMMIT_MESSAGE" value="adjust season in member fees page" />
+    <MESSAGE value="update for new season" />
+    <option name="LAST_COMMIT_MESSAGE" value="update for new season" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
