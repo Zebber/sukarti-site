@@ -11,5 +11,5 @@ Wens je meer info? Neem contact op met <a href="mailto:info@ttcsukarti.be">info@
 | Donderdag | Begeleid | Jeugd* | 19u15-20u45 |
 | Zaterdag  | Begeleid | Jeugd  | 10u30-12u00 |
 
-`*` Op donderdag spelen trainen er 3 jeugdgroepen tegelijkertijd.
+`*` Op donderdag trainen er 3 jeugdgroepen tegelijkertijd.
 
