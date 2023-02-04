@@ -1,8 +1,8 @@
 ---
 title: "Welkom!"
 ---
-Welkom bij TTC Sukarti! Onze tafeltennisclub werd opgericht in 2008 en is uitgegroeid tot een club waar zowel de recreatieve als competitieve tafeltennisser terecht kan.
-We zijn terug te vinden in de sporthal van PISO Tienen. Ons adres is *Alexianenweg 2, 3300 Tienen*
+Welkom bij Grand Slam Sukarti! Onze tafeltennisclub werd opgericht in 2008 en is uitgegroeid tot een club waar zowel de recreatieve als competitieve tafeltennisser terecht kan.
+We zijn terug te vinden bij Grand Slam Tienen. Ons adres is *Tennis straat 3, 3300 Tienen*
 ## Volg ons!
 Wil je op de hoogte blijven van onze laatste nieuwtjes? Volg ons op [Facebook](https://www.facebook.com/ttcsukarti) en [Instagram](https://www.instagram.com/ttcsukartitienen/")!
 ## Promofilmpje van een van onze leden

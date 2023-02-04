@@ -32,9 +32,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="update for new season">
+    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="update membership fees">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/_index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/content/pages/lidgeld.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/lidgeld.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/content/pages/uren.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/uren.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,10 @@
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -102,7 +107,8 @@
       <workItem from="1633368442891" duration="1080000" />
       <workItem from="1634051727353" duration="731000" />
       <workItem from="1637418419707" duration="140000" />
-      <workItem from="1659368613541" duration="3001000" />
+      <workItem from="1659368613541" duration="3611000" />
+      <workItem from="1675515483128" duration="356000" />
     </task>
     <task id="LOCAL-00001" summary="Update 20-2021">
       <created>1597692758839</created>
@@ -202,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659368927156</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update membership fees">
+      <created>1659373500028</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1659373500028</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +243,8 @@
     <MESSAGE value="adjust training hours" />
     <MESSAGE value="adjust season in member fees page" />
     <MESSAGE value="update for new season" />
-    <option name="LAST_COMMIT_MESSAGE" value="update for new season" />
+    <MESSAGE value="update membership fees" />
+    <option name="LAST_COMMIT_MESSAGE" value="update membership fees" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
