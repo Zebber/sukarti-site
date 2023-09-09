@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -32,11 +35,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="update membership fees">
+    <list default="true" id="012ecfc6-c295-47e2-b4a5-a9a597b23b88" name="Default Changelist" comment="fix typo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/_index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/content/pages/lidgeld.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/lidgeld.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/site/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/content/pages/stage.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/stage.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/content/pages/uren.md" beforeDir="false" afterPath="$PROJECT_DIR$/site/content/pages/uren.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/layouts/partials/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/layouts/partials/sponsors-side.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/layouts/partials/sponsors-side.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,6 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/site/data/sponsors/nazar.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/site/data/sponsors/wolsalon.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/css/cms.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/css/main.css" root0="FORCE_HIGHLIGHTING" />
@@ -65,22 +71,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 0
+}]]></component>
   <component name="ProjectId" id="1gEiQGvPAjlNYAgIdU7AQLzVYCy" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\NathanVandecauter\WebstormProjects\sukarti\sukarti-site\site\data\sponsors" />
@@ -108,7 +120,11 @@
       <workItem from="1634051727353" duration="731000" />
       <workItem from="1637418419707" duration="140000" />
       <workItem from="1659368613541" duration="3611000" />
-      <workItem from="1675515483128" duration="356000" />
+      <workItem from="1675515483128" duration="701000" />
+      <workItem from="1675604027315" duration="401000" />
+      <workItem from="1684696136410" duration="1336000" />
+      <workItem from="1685391776528" duration="41000" />
+      <workItem from="1694282217683" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="Update 20-2021">
       <created>1597692758839</created>
@@ -215,7 +231,28 @@
       <option name="project" value="LOCAL" />
       <updated>1659373500028</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="update">
+      <created>1675515852397</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675515852399</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update sponsor">
+      <created>1675515885481</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1675515885481</updated>
+    </task>
+    <task id="LOCAL-00018" summary="fix typo">
+      <created>1675516081719</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1675516081719</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +281,10 @@
     <MESSAGE value="adjust season in member fees page" />
     <MESSAGE value="update for new season" />
     <MESSAGE value="update membership fees" />
-    <option name="LAST_COMMIT_MESSAGE" value="update membership fees" />
+    <MESSAGE value="update" />
+    <MESSAGE value="update sponsor" />
+    <MESSAGE value="fix typo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix typo" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
